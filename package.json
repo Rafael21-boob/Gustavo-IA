@@ -1,0 +1,23 @@
+{
+  "name": "gusta-cars-api",
+  "version": "1.0.0",
+  "description": "Mini sistema de gerenciamento de carros - API Serverless Node.js + MongoDB",
+  "main": "api/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node api/index.js",
+    "dev": "node api/index.js",
+    "test": "node scripts/test-api.js",
+    "frontend": "npm --prefix frontend run dev",
+    "frontend:build": "npm --prefix frontend run build"
+  },
+  "keywords": ["cars", "serverless", "vercel", "mongodb", "react", "express"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongoose": "^8.9.5"
+  }
+}
